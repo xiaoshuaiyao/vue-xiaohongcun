@@ -1,11 +1,11 @@
 <template>
   <div class="home">
-
+    <Concent/>
   </div>
 </template>
 
 <script>
-
+import Concent from '../components/home/concent'
 import axios from 'axios'
 export default {
   created(){
@@ -16,7 +16,7 @@ export default {
   },
   name: 'home',
   components: {
- 
+      Concent
   }
 }
 </script>

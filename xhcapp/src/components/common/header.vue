@@ -28,9 +28,9 @@ export default {
 
 <style scoped lang="scss">
         .header{
-           width: 345px;
-           height: 44.8px;
-           padding: 0 15px;
+           width: 100%;
+           height: 2.8rem;
+           padding: 0 .9375rem;
            z-index: 10;
            position: fixed;
            left: 0;
@@ -38,41 +38,41 @@ export default {
            right: 0;
            background: #fff;
            display: flex;
-           
+           border-bottom: 1px solid #efefef;
            align-items: center;
         }
         .header_left{
-          width:68.5px;
-          height: 44.8px; 
+          width:4.28125rem;
+          height: 2.8rem; 
         }
         .header_left>img{
-          margin-top: 15px;
-          width: 68.5px;
-          height: 15.8px;
+          margin-top: .9375rem;
+          width: 4.28125rem;
+          height: .9875rem;
         }
         .header_center{
-          width: 162px;
-          height: 27px;
+          width: 10.125rem;
+          height: 1.6875rem;
           background: #f5f5f5;
-         margin-left: 38px;
-         border-radius: 15px;
-         font-size: 12px;
+         margin-left: 2.375rem;
+         border-radius: .9375rem;
+         font-size: .75rem;
         }
         .header_center>a{
             color: gray;
-            line-height: 27px;
-            margin-left:35px;
+            line-height: 1.6875rem;
+            margin-left:2.1875rem;
         }
         .header_right{
-           width: 67.5px;
-           height: 44.8px;
+           width: 4.21875rem;
+           height: 2.8rem;
             display: flex;
             align-items: center;
         }
          .header_right>a{
             color:#ff3167;
-            line-height: 27px;
-            margin-left:35px;
-            font-size: 13px;
+            line-height: 1.6875rem;
+            margin-left:2.1875rem;
+            font-size: .8125rem;
         }
 </style>

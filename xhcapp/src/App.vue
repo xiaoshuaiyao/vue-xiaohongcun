@@ -8,17 +8,18 @@
 <script>
 import Footer from './components/common/footer'
 import Header from './components/common/header'
-import Home from "./views/Home";
-import Common from '../public/css/common.css'
+import Home from "./views/Home"
+import Reset from '../public/css/reset.css'
 export default {
   name: "app",
   components: {
     Home,
-    Common,
+    Reset,
     Header,
     Footer
   }
 };
 </script>
 <style lang="scss">
+
 </style>
