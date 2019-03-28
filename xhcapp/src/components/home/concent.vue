@@ -89,74 +89,74 @@ export default {
 
 <style scoped lang="scss">
 .concent{
-  height: 62.5rem;
+  height: 30rem;
   overflow: auto;
 }
 .concent_text{
-  padding: 0 0.9375rem;
-  width: 23.4375rem;
-  height: 24.3125rem;
-  margin-top: 2.8rem;
-  border-bottom: 0.625rem solid #efefef;
+  padding: 0 0.3rem;
+  width: 7.5rem;
+  height: 7.78rem;
+  margin-top: .896rem;
+  border-bottom: 0.2rem solid #efefef;
 }
 .concent_top {
-  width: 21.5625rem;
-  height: 4.21875rem;
+  width: 6.9rem;
+  height: 1.35rem;
   display: flex;
   align-items: center;
 }
 .concent_top_left > img {
-  width: 2.5rem;
-  height: 2.5rem;
+  width: .8rem;
+  height: .8rem;
   border-radius: 50%;
-  margin-right: 0.9375rem;
+  margin-right: 0.3rem;
 }
 .concent_top_center {
-  width: 215px;
-  height: 1.2rem;
+  width: 4.3rem;
+  height: .384rem;
 }
 .concent_top_center > a {
-  font-size: 0.875rem;
-  width: 13.4375rem;
+  font-size: 0.28rem;
+  width: 4.2992rem;
   display: block;
   color: #191919;
   white-space: nowrap;
 }
 .concent_top_right {
-  width: 4.0625rem;
-  height: 1.4375rem;
+  width: 1.3rem;
+  height: 0.46rem;
   background: rgb(249, 41, 90);
-  border-radius: 0.625rem;
+  border-radius: 0.2rem;
   text-align: center;
 }
 .concent_top_right > b {
-  line-height: 1.4375rem;
+  line-height: 0.46rem;
   color: #f8f8f8;
-  font-size: 0.75rem;
+  font-size: 0.24rem;
   font-weight: 400;
 }
 .concent_mid {
-  width: 21.5625rem;
-  height: 13.808125rem;
+  width: 6.9rem;
+  height: 4.4186rem;
 }
 .concent_mid > img {
   width: 100%;
   height: 100%;
 }
 .concent_btm {
-  width: 21.5625rem;
-  height: 1.25rem;
-  margin-top: 0.875rem;
-  margin-bottom: 0.875rem;
+  width: 6.9rem;
+  height: 0.4rem;
+  margin-top: 0.28rem;
+  margin-bottom: 0.28rem;
 }
 .concent_btm > p {
-  font-size: 0.875rem;
-  line-height: 20px;
+  font-size: 0.28rem;
+  line-height: 0.4rem;
   color: #010101;
 }
 .concent_bottom {
-  width: 23.4375rem;
-  height: 41px;
+  width: 7.5rem;
+  height:0.82rem;
   border-top: 1px solid #ebe9e9;
   display: flex;
   align-items: center;
@@ -164,12 +164,12 @@ export default {
 .concent_bottom > span {
   padding-left: 0;
   display: inline-block;
-  width: 125px;
-  height: 19.2px;
+  width: 2.5rem;
+  height: 0.384rem;
   border-right: 1px solid #ebe9e9;
   vertical-align: middle;
   color: #999;
-  font-size: 0.875rem;
+  font-size: 0.28rem;
   text-align: center;
 }
 </style>

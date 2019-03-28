@@ -28,8 +28,8 @@ export default {
 
 <style scoped lang="scss">
       .footer{
-          width: 23.4375rem;
-          height: 3.75rem;
+          width: 7.5rem;
+          height: 1.2rem;
           position: fixed;
           left: 0;
           right: 0;
@@ -44,10 +44,10 @@ export default {
           z-index: 15;
         position: fixed;
         display: block;
-        width: 3.125rem;
-        height: 3.125rem;      
-        right: .625rem;
-        bottom: .625rem;
+        width: 1rem;
+        height: 1rem;      
+        right: .2rem;
+        bottom: .2rem;
       }
            
 </style>

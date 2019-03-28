@@ -29,8 +29,8 @@ export default {
 <style scoped lang="scss">
         .header{
            width: 100%;
-           height: 2.8rem;
-           padding: 0 .9375rem;
+           height: 0.896rem;
+           padding: 0.3rem;
            z-index: 10;
            position: fixed;
            left: 0;
@@ -42,37 +42,37 @@ export default {
            align-items: center;
         }
         .header_left{
-          width:4.28125rem;
-          height: 2.8rem; 
+          width:1.37rem;
+          height: 0.896rem; 
         }
         .header_left>img{
-          margin-top: .9375rem;
-          width: 4.28125rem;
-          height: .9875rem;
+          margin-top: .3rem;
+          width: 1.37rem;
+          height: .3rem;
         }
         .header_center{
-          width: 10.125rem;
-          height: 1.6875rem;
+          width: 3.24rem;
+          height: .54rem;
           background: #f5f5f5;
-         margin-left: 2.375rem;
-         border-radius: .9375rem;
-         font-size: .75rem;
+         margin-left: .76rem;
+         border-radius: .3rem;
+         font-size: .24rem;
         }
         .header_center>a{
             color: gray;
-            line-height: 1.6875rem;
-            margin-left:2.1875rem;
+            line-height: .53712rem;
+            margin-left:0.7rem;
         }
         .header_right{
-           width: 4.21875rem;
-           height: 2.8rem;
+           width: 1.35rem;
+           height: 0.896rem;
             display: flex;
             align-items: center;
         }
          .header_right>a{
             color:#ff3167;
-            line-height: 1.6875rem;
-            margin-left:2.1875rem;
-            font-size: .8125rem;
+            line-height: .54rem;
+            margin-left:.7rem;
+            font-size: .26rem;
         }
 </style>
