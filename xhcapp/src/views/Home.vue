@@ -1,11 +1,11 @@
 <template>
   <div class="home">
-    <Header/>
+
   </div>
 </template>
 
 <script>
-import Header from '../components/common/header'
+
 import axios from 'axios'
 export default {
   created(){
@@ -16,7 +16,7 @@ export default {
   },
   name: 'home',
   components: {
-    Header
+ 
   }
 }
 </script>
