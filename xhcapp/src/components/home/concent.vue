@@ -2,9 +2,9 @@
   <div class="concent">
     <div class="concent_text" v-for="(item,index) in concents">
       <div class="concent_top">
-        <div class="concent_top_left">
+        <router-link class="concent_top_left"  tag="div" :to="item.to">
           <img :src="item.img" alt>
-        </div>
+        </router-link >
         <div class="concent_top_center">
           <a href>{{item.name}}</a>
         </div>
@@ -43,7 +43,8 @@ export default {
           title: "一根皮筋，瘦锁骨！",
           zan: "31",
           say: "1",
-          collect: "收藏"
+          collect: "收藏",
+          to:"/video"
         },
         {
            img:
@@ -55,7 +56,8 @@ export default {
           title: "一根皮筋，瘦锁骨！",
           zan: "31",
           say: "1",
-          collect: "收藏"
+          collect: "收藏",
+          to:"/video"
         },
         {
            img:
@@ -67,7 +69,8 @@ export default {
           title: "一根皮筋，瘦锁骨！",
           zan: "31",
           say: "1",
-          collect: "收藏"
+          collect: "收藏",
+          to:"/video"
         },{
            img:
             "https://wicdn.xiaohongchun.com/cover/BFD50E8D9216B911.jpg-avatars3x.jpg",
@@ -78,7 +81,8 @@ export default {
           title: "一根皮筋，瘦锁骨！",
           zan: "31",
           say: "1",
-          collect: "收藏"
+          collect: "收藏",
+          to:"/video"
         }
       ]
     };
@@ -93,6 +97,7 @@ export default {
   overflow: auto;
 }
 .concent_text{
+  position: relative;
   padding: 0 0.3rem;
   width: 7.5rem;
   height: 7.78rem;
@@ -155,6 +160,10 @@ export default {
   color: #010101;
 }
 .concent_bottom {
+
+  position: absolute;
+  left:0; 
+  bottom: 0;
   width: 7.5rem;
   height:0.82rem;
   border-top: 1px solid #ebe9e9;

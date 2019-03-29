@@ -2,10 +2,13 @@
   <div id="app">
     <Header/>
     <Home/>
-    <Footer/>
+    <Video/>
+    <Footer/> 
+    
   </div>
 </template>
 <script>
+import Video from './views/video'
 import Footer from './components/common/footer'
 import Header from './components/common/header'
 import Home from "./views/Home"
@@ -16,7 +19,8 @@ export default {
     Home,
     Reset,
     Header,
-    Footer
+    Footer,
+    Video
   }
 };
 </script>
