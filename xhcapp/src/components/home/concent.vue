@@ -24,7 +24,9 @@
         <span>{{item.collect}}</span>
       </div>
     </div>
+    <router-view></router-view>
   </div>
+  
 </template>
 
 <script>
@@ -48,12 +50,12 @@ export default {
         },
         {
            img:
-            "https://wicdn.xiaohongchun.com/cover/BFD50E8D9216B911.jpg-avatars3x.jpg",
-          name: "路遥",
+            "https://wicdn.xiaohongchun.com/cover/2ECB1EE4EF8CED71.jpg-avatars3x.jpg",
+          name: "Kathikds",
           watch: "+关注",
           video:
-            "https://wicdn.xiaohongchun.com/cover/9D4DD1BA22E35ECE.jpg-big2x.jpg",
-          title: "一根皮筋，瘦锁骨！",
+            "https://wicdn.xiaohongchun.com/cover/A252346DCBF0AC33.jpg-big2x.jpg",
+          title: "叮～春夏口红试色分享来学生党也能轻松拥有！希望大家喜欢啦～   ",
           zan: "31",
           say: "1",
           collect: "收藏",
